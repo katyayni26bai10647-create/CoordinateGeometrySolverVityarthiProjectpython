@@ -22,8 +22,8 @@ elif choice == "2":
    y1 = float(input("Enter y1: "))
    x2 = float(input("Enter x2: "))
    y2 = float(input("Enter y2: "))
-   e = (x2 - x1)/2
-   n = (y2 - y1)/2
+   e = (x2 + x1)/2
+   n = (y2 + y1)/2
    print("MIDPOINT:", "(" , e , "," , n , ")")
 elif choice == "3":
    print("\n---SLOPE OF A LINE---")
